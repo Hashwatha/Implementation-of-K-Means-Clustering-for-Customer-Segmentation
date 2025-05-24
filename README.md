@@ -48,8 +48,6 @@ data.isnull().sum()
 
 from sklearn.cluster import KMeans
 wcss=[]
-print("Name:A.Lahari")
-print("Reg.No:212223230111")
 
 for i in range(1,11):
     kmeans=KMeans(n_clusters=i,init="k-means++")
